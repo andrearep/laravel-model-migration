@@ -18,9 +18,9 @@ class CreateHolidaysTable extends Migration
           
             $table->string('departure', 30);
             $table->string('arrival', 30);
-            $table->string('poster', 100)->nullable();
+            $table->text('poster')->nullable();
             $table->float('price', 8, 2);
-            $table->string('transport', 20);
+            $table->string('transport', 20)->nullable();
             $table->date('departure_date');
             $table->date('return_date');
             $table->timestamps();
