@@ -1,6 +1,10 @@
 @extends('layout.app')
 @section('content')
 
-<h1>HOME</h1>
+<main>
+    <div class="conatiner">
+
+    </div>
+</main>
 
 @endsection

@@ -1,0 +1,27 @@
+header {
+    width: 100%;
+    padding: 3rem;
+    background: linear-gradient(180deg, rgba(135, 209, 40, 0.48) 0%, rgba(177, 171, 11, 0.62) 100%);
+
+    h1 {
+        text-align: center;
+        font-size: 3rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+
+        a {
+            margin: 0 1.5rem;
+            text-decoration: none;
+            color: inherit;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
