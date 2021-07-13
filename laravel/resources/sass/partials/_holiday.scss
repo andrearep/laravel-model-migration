@@ -1,0 +1,28 @@
+#holiday{
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        .card{
+            width: 40%;
+            margin: 2rem 3rem ;
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            background-color:rgb(224, 224, 224);
+            border-radius: 10px;
+            &>*{
+                margin-bottom: 1rem;
+            }
+            .poster{
+                width: 100%;
+                
+                img{
+                    width: 100%;
+                    height: 300px;
+                    border-radius: 50px;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+}

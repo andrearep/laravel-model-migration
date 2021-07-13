@@ -16,20 +16,8 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <!-- Styles -->
     <style>
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
 
-    html,
-    body {
-        background-color: #fff;
-        color: #636b6f;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 200;
 
-    }
     </style>
 </head>
 
@@ -41,7 +29,7 @@
 
         <nav>
             <a href="">home</a>
-            <a href="">vacanze</a>
+            <a href="{{route('holiday')}}">vacanze</a>
         </nav>
     </header>
     @yield('content')
