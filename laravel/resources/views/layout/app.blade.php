@@ -28,7 +28,7 @@
         </h1>
 
         <nav>
-            <a href="">home</a>
+            <a href="{{route('home')}}">home</a>
             <a href="{{route('holiday')}}">vacanze</a>
         </nav>
     </header>

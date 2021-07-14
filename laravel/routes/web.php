@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PageController@index')->name('home')->name('home');
+Route::get('/', 'PageController@index')->name('home');
 Route::get('/holiday', 'PageController@holiday')->name('holiday');

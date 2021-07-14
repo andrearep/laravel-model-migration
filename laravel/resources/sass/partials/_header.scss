@@ -21,6 +21,11 @@ header {
             font-weight: 700;
             text-transform: uppercase;
         }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+            transition: 1s;
+        }
     }
 
 }
